@@ -45,7 +45,9 @@ const LoginPage:React.FC = () => {
                     <label/>
                     <div>
                         New user?
+                        <Link to='/register'>
                             Create Account
+                        </Link>
                     </div>
                 </div>
             </form>
